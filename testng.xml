@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rest Assured Automation Suite">
+
+<listeners>
+		<listener class-name="Com.ExtentsReports.extentreporting" />
+	</listeners>
+
+  <test name="Test API Calls for POST,GET,PUT,Delete">
+ 
+   
+    <classes>
+     
+     <class name="GetRequest.GetData"/>
+     <class name="GetRequest.GetDataSecondWay"/>
+     <class name="GetRequest.PostData"/>
+     <class name="GetRequest.PutData"/>
+     <class name="GetRequest.DeleteData"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

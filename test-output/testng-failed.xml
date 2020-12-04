@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Rest Assured Automation Suite]">
+  <listeners>
+    <listener class-name="Com.ExtentsReports.extentreporting"/>
+  </listeners>
+  <test thread-count="5" name="Test API Calls for POST,GET,PUT,Delete(failed)">
+    <classes>
+      <class name="GetRequest.GetDataSecondWay">
+        <methods>
+          <include name="TestResponsecodes"/>
+        </methods>
+      </class> <!-- GetRequest.GetDataSecondWay -->
+    </classes>
+  </test> <!-- Test API Calls for POST,GET,PUT,Delete(failed) -->
+</suite> <!-- Failed suite [Rest Assured Automation Suite] -->
